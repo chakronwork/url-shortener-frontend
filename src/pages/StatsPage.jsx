@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import axios from 'axios';
 
-const API_URL = 'https://url-shortener-backend-bchw.onrender.com';
+const API_URL = 'https://url-shortener-backend-bchw.onrender.com/api';
 
 function StatsPage() {
   const [stats, setStats] = useState(null);

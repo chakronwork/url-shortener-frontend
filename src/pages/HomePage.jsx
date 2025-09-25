@@ -2,7 +2,7 @@ import { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 
-const API_URL = 'https://url-shortener-backend-bchw.onrender.com';
+const API_URL = 'https://url-shortener-backend-bchw.onrender.com/api';
 
 function HomePage() {
   const [longUrl, setLongUrl] = useState('');
